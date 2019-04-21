@@ -1,0 +1,24 @@
+{
+  "name": "easy-oauth2-client",
+  "version": "0.0.1",
+  "description": "Lightweight OAuth2 client library",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimajneb/easy-oauth2-client.git"
+  },
+  "keywords": [
+    "oauth2",
+    "authorization",
+    "typescript"
+  ],
+  "author": "Benjamin Wilfing",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimajneb/easy-oauth2-client/issues"
+  },
+  "homepage": "https://github.com/nimajneb/easy-oauth2-client#readme"
+}
