@@ -7,7 +7,9 @@
     "outDir": "./dist",
     "incremental": true,
     "strict": true,
-    "strictNullChecks": true
+    "strictNullChecks": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true
   },
   "exclude": [
     "node_modules",

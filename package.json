@@ -28,5 +28,10 @@
   "devDependencies": {
     "rimraf": "^2.6.3",
     "typescript": "^3.4.4"
+  },
+  "dependencies": {
+    "@types/request-promise-native": "^1.0.15",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
   }
 }
