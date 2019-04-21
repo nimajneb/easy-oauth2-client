@@ -3,8 +3,12 @@
   "version": "0.0.1",
   "description": "Lightweight OAuth2 client library",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf dist/*",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run clean && tsc",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -20,5 +24,9 @@
   "bugs": {
     "url": "https://github.com/nimajneb/easy-oauth2-client/issues"
   },
-  "homepage": "https://github.com/nimajneb/easy-oauth2-client#readme"
+  "homepage": "https://github.com/nimajneb/easy-oauth2-client#readme",
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.4"
+  }
 }
