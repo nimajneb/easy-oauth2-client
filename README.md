@@ -3,7 +3,7 @@
 Zero-dependency nodejs OAuth2 client written in TypeScript. Currently work in progress, not recommended for production use.
 
 ## Installation
-```ts
+```
 npm i easy-oauth2-client
 ```
 
