@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/nimajneb/easy-oauth2-client#readme",
   "devDependencies": {
-    "@types/node": "^11.13.6",
+    "@types/node": "^10.14.5",
     "rimraf": "^2.6.3",
     "typescript": "^3.4.4"
   },
